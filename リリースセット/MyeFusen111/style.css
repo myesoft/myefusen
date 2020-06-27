@@ -1,0 +1,352 @@
+@charset "Shift_JIS"; /* 文字エンコードの設定（削除不可） */
+
+/* HTML要素（一部#ID） */
+*	{
+	margin: 0;
+	padding: 0;
+	color: #554036;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: "Century Gothic", Verdana, Osaka, sans-serif;
+	}
+
+/* 基本構造 */
+html	{	}
+body	{	}
+div	{
+	border: 0;
+	}
+hr	{
+	display: none;
+	}
+
+/* 見出し */
+h1,h2,h3,h4,h5,h6	{	}
+h1	{
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: right;
+	}
+h2	{
+	margin: 0 0 1em;
+	padding: 3px 10px;
+	font-size: 18px;
+	text-align: left;
+	letter-spacing: 0.5em;
+	border-left: 45px solid #f59524;
+	}
+h3	{
+	width: 75%;
+	margin: 0.5em;
+	padding: 3px 5px;
+	font-size: 15px;
+	line-height: 17px;
+	border-bottom: 2px dashed #f59524;
+	}
+h4	{
+	margin: 1em 1em 0.5em;
+	padding: 0 3px;
+	border-left: 4px double #f59524;
+	}
+h5	{
+	margin: 1em 1em 0.5em;
+	padding: 0 3px;
+	border-left: 2px solid #f59524;
+	}
+h6	{
+	width: 25%;
+	margin: 1em 1em 0.5em;
+	padding: 0 3px;
+	font-size: 10px;
+	border-bottom: 1px solid #f59524;
+	}
+
+/* 段落 */
+p	{
+	margin: 0 1em 1em;
+	}
+
+/* アンカー */
+a	{
+	color: #ef5e00;
+	}
+	a:link, a:visited	{	}
+	a:hover, a:active	{
+		background-color: #f0da80;
+		}
+	a:focus	{	}
+
+/* 強調・追加・削除 */
+em	{
+	font-weight: bold;
+	font-style: normal;
+	}
+strong	{
+	border-top: 3px double #f59524;
+	border-bottom: 3px double #f59524;
+	}
+ins	{	}
+del	{	}
+
+/* テーブル */
+table	{
+	margin: 0 2em 1em;
+	border: 1px solid #f59524;  /* ラインを消す場合は"border: 0;" */
+	border-spacing: 0;
+	border-collapse: collapse;
+	}
+th	{
+	padding: 2px 4px;
+	text-align: right;
+	background-color: #f0da80;  /* 背景色を消す場合は、この行を削除 */
+	border: 1px solid #f59524;  /* ラインを消す場合は"border: 0;" */
+	}
+td	{
+	padding: 2px 4px;
+	border: 1px solid #f59524;  /* ラインを消す場合は"border: 0;" */
+	}
+
+/* フォーム */
+input	{
+	margin: 2px;
+	padding: 1px 2px;
+	line-height: 17px;
+	border: 1px solid #554036;
+	}
+	input#TEXT	{	}
+	input#CHECKBOX	{	}
+	input#RADIO	{	}
+	input#BUTTON	{	}
+button, input[type="button"], input[type="submit"], input[type="reset"]	{
+	margin: 2px;
+	padding: 0 2px;
+	line-height: 17px;
+	background-color: #f0da80;
+	border: 1px solid #f59524;
+	}
+textarea	{
+	margin: 2px;
+	padding: 1px 2px;
+	border: 1px solid #554036;
+	}
+select	{
+	margin: 2px;
+	border: 1px solid #554036;
+	}
+option	{
+	padding: 1px 2px;
+	}
+optgroup	{	}
+fieldset	{
+	margin: 0 3em 1em;
+	padding: 4px 2px;
+	font-weight: bold;
+	border: 1px dashed #f59524;  /* ラインを消す場合は"border: 0;" */
+	}
+
+/* リスト */
+ol	{
+	margin: 0 1em 1em 3em;
+	}
+	ol li	{	}
+ul	{
+	margin: 0 1em 1em 3em;
+	}
+	ul li	{	}
+dl	{
+	margin: 0 1em 1em 2em;
+	}
+	dt	{
+		font-weight: bold;
+		}
+	dd	{
+		margin: 0 0 0 7px;
+		padding: 0 0 0 4px;
+		border-left: 2px dotted #f59524;
+		}
+li ol, li ul, li dl	{
+	margin: 0 0 0 1.5em;
+	}
+dd ol, dd ul, dd dl	{
+	margin: 0 0 0 2em;
+	}
+
+/* アドレス */
+address	{
+	font-style: normal;
+	display: inline;
+	}
+
+/* 引用 */
+blockquote	{
+	margin: 0 5em 1em;
+	padding: 10px;
+	border: 1px dashed #f59524;
+	}
+cite	{	}
+q	{
+	border-bottom: 1px dashed #f59524;
+	}
+	q:after, q:before	{
+		padding: 0 4px;
+		}
+
+/* 整形済みテキスト */
+pre	{
+	width: 80%;
+	margin: 0 0 1em 5em;
+	padding: 2px 5px;
+	border: 1px dashed #f59524;
+	overflow: auto;
+	}
+
+/* 物理要素 */
+b	{	}
+i	{	}
+big	{
+	font-size: 16px;
+	}
+small	{
+	font-size: 10px;
+	}
+tt	{	}
+
+/* 省略語・頭文字 */
+abbr, acronym	{
+	border-bottom: 1px dotted #554036;
+	}
+	abbr:after, acronym:after	{
+		content: "[?]";
+		color: #88705c;
+		font-size: 10px;
+		}
+
+/* 定義語 */
+dfn	{
+	font-weight: bold;
+	font-style: normal;
+	}
+
+/* 下付き文字・上付き文字 */
+sub, sup	{
+	font-size: 9px;
+	}
+
+/* イメージ */
+img	{
+	margin: 2px;
+	border: 1px dotted #554036;
+	}
+
+/* *********************************************** */
+/* 各#ID＆.class */
+
+body#INDEX	{	}
+div#PAGETOP	{
+	margin: 0 150px;
+	border-right: 3px solid #f59524;
+	border-left: 3px solid #f59524;
+	}
+div#HEADER	{
+	padding: 30px 15px 50px;
+	background-color: #f0da80;
+	border-top: 12px solid #f59524;
+	}
+	ul#PAN	{
+		text-align: right;
+		}
+		#PAN li	{
+			padding: 0 2px 0 4px;
+			border-left: 1px dashed #f59524;
+			display: inline;
+			}
+		#PAN a	{
+			color: #554036;
+			text-decoration: none;
+			background-color: #f0da80;
+			}
+div#MENU	{
+	position: relative;
+	bottom: 40px;
+	padding: 1px 0;
+	text-align: left;
+	background-color: #ffffff;
+	border-top: 3px solid #f59524;
+	border-bottom: 3px solid #f59524;
+	}
+	#MENU h2	{
+		margin: 0;
+		padding: 0 10px; 
+		font-size: 13px;
+		font-weight: bold;
+		letter-spacing: 0;
+		border-left: 0;
+		border-right: 3px double #554036;
+		display: inline;  /* "menu"の文字を消す場合は"inline→none" */
+		}
+	#MENU ul	{
+		margin: 0;
+		padding: 0 10px;
+		display: inline;
+		}
+	#MENU li	{
+		padding: 0 7px 0 0;
+		list-style-type: none;
+		display: inline;
+		}
+		li#MENU01	{	}
+		li#MENU02	{	}
+		li#MENU03	{	}
+		li#MENU04	{	}
+			li.menu-on	{	}
+			li.menu-on a
+				{	}
+	#MENU a	{
+		color: #554036;
+		text-decoration: none;
+		}
+		#MENU a:link, #MENU a:visited	{	}
+		#MENU a:hover, #MENU a:active	{
+			color: #ef5e00;
+			background-color: #ffffff;
+			}
+div#KIZI	{	background-color: ivory;
+	}
+	div.text	{	}
+		ul.modori	{
+			margin: 0 1em 1em;
+			text-align: right;
+			list-style-type: none;
+			}
+div#FOOTER	{
+	text-align: right;
+	}
+	#FOOTER h2{
+		display: none;
+		}
+	#FOOTER ul	{
+		margin: 0;
+		padding: 1px 5px;
+		background-color: #f0da80;
+		border-bottom: 3px solid #f59524;
+		}
+	#FOOTER li	{
+		margin: 0 4px;
+		padding: 0;
+		background-image: none;
+		list-style-type: none;
+		display: inline;
+		}
+		li#FOOTER01	{	}
+		li#FOOTER02	{	}
+		li#FOOTER03	{	}
+	#FOOTER a	{
+		color: #554036;
+		text-decoration: none;
+		}
+		#FOOTER a:link, #FOOTER a:visited	{	}
+		#FOOTER a:hover, #FOOTER a:active	{
+			color: #ffffff;
+			background-color: #f0da80;
+			}
